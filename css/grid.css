@@ -1,0 +1,106 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  .gmbc{
+      height: 100%;
+      width: 100%;
+  }
+  ul li{
+    text-decoration: none;
+    display: inline;
+  }
+  ul li a{
+      text-decoration: none;
+      color: whitesmoke;
+      margin: auto;
+      padding: 20px;
+  }
+  ul li a:hover{
+      color: black;
+      background-color: whitesmoke;
+  }
+  .header h1{
+      color: whitesmoke;
+      padding-left:40%;
+  }
+  .gmb{
+      width: 100px;
+      height: 100px;
+  }
+  .footer p{
+      color: whitesmoke;
+      text-align: center;
+  }
+  .sidebar img{
+      max-width: 100%;
+      -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Safari 3-8 */
+    transform: rotate(90deg);
+    margin-top: 30px;
+    border-radius: 50%;
+      
+  }
+#mapid { height: 100%; }
+@media only screen and (min-width:600px){
+    .container{
+        display: grid;
+        min-height: 100% !important;
+        grid-template-columns: repeat(12,1fr);
+        grid-template-rows: 40px 70px auto 200px 50px;
+        grid-template-areas:
+        "m m m m m m m m m m m m"
+        "h h h h h h h h h h h h"
+        "s s c c c c c c c c c c"
+        "i i i i i i r r r r r r"
+        "f f f f f f f f f f f f"
+    }
+}
+@media only screen and (max-width:600px){
+    .container{
+        display: grid;
+        min-height: 100% !important;
+        grid-template-columns: repeat(12,1fr);
+        grid-template-rows: 40px 100px 500px 200px 200px 40px;
+        grid-template-areas:
+        "m m m m m m m m m m m m"
+        "h h h h h h h h h h h s"
+        "c c c c c c c c c c c c"
+        "i i i i i i i i i i i i"
+        "r r r r r r r r r r r r"
+        "f f f f f f f f f f f f"
+    }
+    .sidebar{
+        background-color:  rgb(25, 26, 36)!important;
+        grid-area: s;
+    }
+}
+.image{
+    background-color: linen;
+    grid-area: i;
+}
+.review{
+    background-color: lightslategrey;
+    grid-area: r;
+}
+.header{
+    background-color: rgb(25, 26, 36);
+    grid-area: h;
+}
+.menu{
+    background-color: rgb(25, 26, 36);
+    grid-area: m;
+}
+.sidebar{
+    background-color: rgb(228, 228, 228);
+    grid-area: s;
+}
+.content{
+    background-color: brown;
+    grid-area: c;
+    max-height: 500px;
+}
+.footer{
+    background-color: rgb(25, 26, 36);
+    grid-area: f;
+}

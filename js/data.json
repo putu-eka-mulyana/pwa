@@ -1,0 +1,34 @@
+{
+    "places":[
+    {
+    "lokasi": [-8.587361, 116.119973],
+    "sponsor" :"Delicio Bakery & Cafe",
+    "gambar":"img/2-min.jpg",
+    "review": "Restaurant lumayan laris di mataram mall"
+    },
+    {
+    "lokasi": [-8.591236, 116.100113],
+    "sponsor" : "RELAX Cafe",
+    "gambar":"img/3-min.jpg",
+    "review": "Lokasinya strategis, nyaman, cocok untuk yang low budget"
+    },
+    {
+    "lokasi": [-8.581371, 116.095449],
+    "sponsor" :"Three-C Coffee & Tea",
+    "gambar":"img/4-min.jpg",
+    "review": "Sejauh ini menurut saya di Mataram tempat favorit buat duduk duduk sambil ngobrol dengan teman teman ya disini. Kopi nya enak, makanannya juga enak apalagi mie goreng nya favorit banget deh. Oh iya, kadang ada nonton bareng pertandingan sepak bola juga disini. Mungkin sedikit kurang pencahayaan di cafè nya. Good"
+    },
+    {
+    "lokasi": [-8.583838, 116.096717],
+    "sponsor" : "KEDAI KOPI PANCING",
+    "gambar":"img/5-min.jpg",
+    "review": "Sempurna untuk tempat nongkrong Dan ngerjain tugas bagi mahasiswa Dan bagi keluarga juga bisa menikmati, toilet nya bersih makanan nya juga enak dan Murah meriah"
+    },
+    {
+    "lokasi": [-8.589868, 116.085211],
+    "sponsor" : "Teras Kafetaria",
+    "gambar":"img/6-min.jpg",
+    "review": "Tempatnya bagus, nyaman, harga oke standar cafe, wifi 👍, paling suka kuenya tp kadang pelayan ga ngerti menu, kurang welcome, menu juga banyak kosong."
+    }
+    ]
+}
